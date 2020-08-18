@@ -6,4 +6,6 @@ COPY requirements.txt /code/
 RUN pip install -r requirements.txt
 RUN cat /etc/os-release
 RUN htop --version
+RUN pwd
+RUN ls
 COPY . /code/
